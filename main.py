@@ -37,7 +37,7 @@ def check_keys():
                 if (music.getBusy()):
                   music.pause()
                 else:
-                  music.play()
+                  music.unpause()
 
             #if event.key == pygame.K_DOWN:
 
